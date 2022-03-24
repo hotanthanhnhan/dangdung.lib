@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 23, 2021, 9:40:38 PM
+    Author     : ThanhNhan
+*/
+
+.inf{
+    width: max-content;
+}
+
+.menu-title{
+    font-weight: bold!important;
+    font-size: 25px!important;
+}
+
+.left-side-menu{
+    width: max-content!important;
+    min-width: 240px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #3b434e;
+}
+
+.tk{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.bor{
+    border: 1px solid black;
+    background-color: #d4d4d4;
+}
+
+.mg{
+    margin: 10px 0;
+}
+
+.content-page{
+    margin-right: 10px!important;
+}
+
+.us-mess{    
+    height: 83vh;
+    overflow: auto;
+    border-right: 1px solid gray;
+}
+
+#sender{
+    list-style: none;    
+}
+
+#sender a{
+    text-decoration: none!important;
+}
+
+#sender li{
+    padding: 10px;
+    background-color: #f1f5f7;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+#sender li:hover{
+    background-color:#c7ddef;
+}
+
+#sender .choose{
+    background-color:#c7ddef;
+}
+
+.name{
+    font-weight: bold;
+    
+}
+
+.co-name{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.client-mess{
+    text-align: left;
+    width: 100%;
+}
+
+.client-mess div{
+    max-width: 70%;
+    background-color: gainsboro;
+    width: max-content;
+    padding: 1.5%;
+    margin: 3%;
+    border-radius: 10px;
+}
+
+.admin-mess{
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.admin-mess div{
+    max-width: 70%;
+    background: gray;    
+    width: max-content;
+    padding: 1.5%;
+    margin: 3%;
+    border-radius: 10px;
+    color: white;
+}
+
+#mess{
+    overflow: auto;
+    height: 66vh;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 20px; 
+}
+
+.co-mess{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.txtMess{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.sent{
+    border-radius: 5px;    
+    margin: 2px;
+}
+
+.messBottom{
+    text-align: center;
+    display: flex;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.pages{
+    font-size: 25px;
+    text-align:center;
+}
+
+.pages a{
+    margin: 0 10px;
+}
+
+.input-select{
+    border-radius: 20px 0 0 20px;
+    background: #434C58;
+    color: white;
+}
+.navbar-custom .app-search{overflow:hidden;display:flex;width:400px;margin-right:20px;margin-top:16px}
+
+#statistical{
+    font-size: 22px;
+    margin: 20px;
+    list-style: none;
+}
+
+#statistical li{
+    margin: 10px;
+}
+
+table thead th {
+    vertical-align: inherit!important;
+    text-align: center;
+    background-color: #bdfbff;
+}

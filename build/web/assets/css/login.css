@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2021, 1:33:24 AM
+    Author     : ThanhNhan
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../imgs/background_login.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    font-size: 140%!important;
+}
+#login .container #login-row #login-column #login-box {    
+    max-width: 720px;
+    height: 380px;
+    border: 1px solid #9C9C9C;
+    background: url(../imgs/form_login.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    
+}
+
+#register .container #login-row #login-column #login-box {    
+    max-width: 720px;
+    height: 540px;
+    border: 1px solid #9C9C9C;
+    background: url(../imgs/form_login.jpg);
+    /*background-color: #EAEAEA;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#register .container #login-row #login-column #login-box #login-form {
+    
+}
+#register .container #login-row #login-column #login-box #login-form #register-link {
+    
+}
+
+#login-row{
+    height: 100vh;
+}
